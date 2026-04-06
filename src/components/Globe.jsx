@@ -78,7 +78,9 @@ export default function GlobeComponent({ onSiteSelect }) {
     ...sugar,
     ...farming,
     ...brewery,
-    ...lifescience
+    ...lifescience,
+    // Berlin
+    { name: "Berlin", lat: 52.52, lng: 13.41, bu: "alarm", buName: "Alarm", isAlarm: true, city: "Berlin"}
   ];
 
 
